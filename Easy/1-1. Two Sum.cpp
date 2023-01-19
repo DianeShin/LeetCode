@@ -7,15 +7,10 @@ Memory : 10.2 MB
 Beats : 73.71%
 
 Time Complexity : O(n^2)
--> 1 for vector init
--> n^2 for nested loop
--> 1 for return result
+-> n^2 for nested loop(calculations inside loop is linear)
 
 Space Complexity : O(n)
--> n for two vector input
--> 1 for target int
--> 2 for result vector
--> 2 for indexes
+-> n for vector input
 
 Algorithm :
 1. From left, choose one element.

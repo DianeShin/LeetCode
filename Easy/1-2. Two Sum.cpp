@@ -7,15 +7,10 @@ Memory : 10.3 MB
 Beats : 73.71%
 
 Time Complexity : O(n)
--> 1 for vector init
--> n^2 for nested loop
--> 1 for return result
-
+-> each number is visited at most once, or one number getting visited again if there is no answer.
 Space Complexity : O(n)
--> n for two vector input
--> 1 for target int
--> 2 for result vector
--> 2 for indexes
+-> n for vector input
+-> n for sorted input
 
 Algorithm :
 1. Sort input vector.
