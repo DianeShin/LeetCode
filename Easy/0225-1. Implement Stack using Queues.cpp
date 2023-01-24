@@ -33,6 +33,10 @@ top :
 4. return result.
 empty :
 1. empty the main_queue.
+
+Point :
+1. When moving elem, be careful to define loop condition in prior. Queue size changes by pop, so using queue.size() in loop condition will malfunction.
+
 */
 
 #include <queue>
