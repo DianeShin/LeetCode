@@ -6,8 +6,8 @@ Beats : 100%
 Memory : 12.4 MB
 Beats : 90.13%
 
-Time Complexity : O(V + E)
--> Each node and edge is traversed once.
+Time Complexity : O(V)
+-> Each node is traversed once.
 
 Space Complexity : O(h) for DFS, O(n) for algorithm
 -> h is max depth of tree. 'path' saves tree depth worth string.
@@ -17,6 +17,9 @@ Algorithm :
 1. Do a recursive call until we reach to the leaf node.
 2. If not leaf, pass the past route + curr_node path to DFS again, with non null left/right path.
 3. When leaf, push_back the whole path to result vector.
+
+Point :
+1. DFS time complexity for tree is O(n), while it is O(V + E) for graph.
 */
 
 #include <vector>
