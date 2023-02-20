@@ -1,8 +1,3 @@
-#include <vector>
-#include <climits>
-
-using namespace std;
-
 /* 
 Question link : https://leetcode.com/problems/powx-n/
 
@@ -25,6 +20,10 @@ Algorithm :
 3. If dp_array[index] is bigger than result, update result.
 */
 
+#include <vector>
+#include <climits>
+
+using namespace std;
 
 class Solution {
 public:
